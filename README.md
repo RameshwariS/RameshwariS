@@ -119,11 +119,9 @@ Explore my GitHub profile for additional projects, experiments, open-source cont
 
 ---
 
-## 🧩 Competitive Programming
-
 <div align="center">
 
-<img src="https://leetcard.jacoblin.cool/RameshwariS?theme=dark&font=baloo2&ext=heatmap" />
+<img src="https://leetcard.jacoblin.cool/shrutisatpute1112?theme=dark&font=baloo2&ext=heatmap" />
 
 </div>
 
