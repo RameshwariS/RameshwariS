@@ -1,24 +1,11 @@
 <h1 align="center">Hi, I'm Rameshwari 👋</h1>
 
-<h3 align="center">Software Engineer — Backend &amp; Distributed Systems</h3>
-
-<p align="center">
-  B.Tech CSE @ Walchand College of Engineering · Building API gateways, backend services & dev tooling · Leading Walchand's Linux & open-source community
-</p>
 
 <p align="center">
   <a href="mailto:rameshwaris1112@gmail.com"><img src="https://img.shields.io/badge/Email-rameshwaris1112%40gmail.com-4FD1C5?style=flat-square&logo=gmail&logoColor=white" /></a>
   <a href="#"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Portfolio-Visit-F2B155?style=flat-square&logo=googlechrome&logoColor=white" /></a>
 </p>
-
----
-
-### 🔭 Currently
-
-- 💼 Software Engineering Intern @ **UBS**, Pune — built scalable REST APIs in Java/Spring Boot, hit 97% test coverage with JUnit & Mockito
-- 🐧 Main Program Director @ **Walchand Linux Users' Group (WLUG)**
-- 🏆 700+ LeetCode problems solved · Rating 1745 (Top 10%)
 
 ---
 
@@ -104,29 +91,6 @@ Check out the pinned repositories below for the full picture, including code, RE
 </td>
 </tr>
 </table>
-
----
-
-### 🏆 Achievements
-
-- 🥇 1st place — **WCE ACM Hackathon 2025** (Novice Track): AI-powered plant disease detection, 1st among 20+ teams
-- 🥇 1st place — **TechFusion CodeDuet 2025** pair-programming contest
-- 🏁 Finalist — **TechSprint Hackathon 2026** (Google Developer Group): AI-powered proctoring extension
-- 🏁 Finalist — **WCE ACM Hackathon 2026** (Expert Track), for the DSV project
-- 🏁 Finalist — **WCPC 2025** competitive programming contest
-- 📊 Top 450 of 2,300+ in **ICPC AlgoQueen**
-- ☁️ AWS Educate — Introduction to Cloud 101 certified
-
----
-
-### 🐧 Community
-
-Main Program Director @ **Walchand Linux Users' Group (WLUG)** — coordinating flagship open-source events and hands-on workshops.
-
-- Delivered a Golang session at **Metamorphosis 2k26** (Docker & Golang, 180+ participants)
-- Led 5+ workshops at **LinuxDiary 5.0**
-- Coordinated **Open Source Day 2k26**, **LinuxDiary 6.0**, and **Metamorphosis 2k26**
-- Presented an episode of **FOSS FILES Season 6** on Anycast & DNS routing
 
 ---
 
