@@ -1,0 +1,43 @@
+name: Profile stats
+
+on:
+  schedule:
+    - cron: "17 0 * * *"   # once a day
+  workflow_dispatch:        # lets you run it by hand from the Actions tab
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build stats cards
+        run: node scripts/build-stats.mjs ${{ github.repository_owner }} dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?palette=github-dark&color_snake=#7aa2f7&color_dots=#161b22,#1e3a5f,#3d5a99,#5f7fd6,#7aa2f7
+            dist/snake-light.svg?color_snake=#3d5a99
+
+      - name: Publish to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "Update profile stats"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
