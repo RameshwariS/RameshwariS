@@ -1,141 +1,150 @@
-<div align="center">
+<!--
+  Profile README for @RameshwariS
+  • Lines marked TODO are placeholders: fill them in or delete them.
+  • Project links currently point to your profile. Swap in the real repo URLs.
+-->
 
-# Hi, I'm Rameshwari 👋
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:7aa2f7&height=200&section=header&text=Rameshwari&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Backend%20%C2%B7%20Distributed%20Systems%20%C2%B7%20ML%20Tooling&descAlignY=58&descSize=18" width="100%" alt="Rameshwari: backend, distributed systems, ML tooling">
 
-<p>
-  <a href="mailto:rameshwaris1112@gmail.com">
-    <img src="https://img.shields.io/badge/Email-rameshwaris1112%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://github.com/RameshwariS">
-    <img src="https://img.shields.io/badge/GitHub-RameshwariS-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=800&color=7AA2F7&center=true&vCenter=true&width=600&lines=Building+systems+that+scale;API+gateways+%E2%80%A2+rate+limiters+%E2%80%A2+backends;Reproducible+ML+workflows;Learning+in+public" alt="Typing intro">
 </p>
 
-</div>
-
-
-## 🛠️ Tech Stack
-
-### 💻 Languages
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-
-### ⚙️ Backend & Infrastructure
-
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-
-### 🌐 Frontend
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-
-### 🗄️ Databases & Tools
-
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+<p align="center">
+  <a href="mailto:rameshwaris1112@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://github.com/RameshwariS"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <!-- TODO: add your LinkedIn, then uncomment
+  <a href="https://www.linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  -->
+  <!-- TODO: add your LeetCode handle, then uncomment
+  <a href="https://leetcode.com/u/YOUR-HANDLE"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"></a>
+  -->
+</p>
 
 ---
 
-## 🚀 Featured Projects
+## `01` About me
+
+I like building the parts of software you don't see: gateways, rate limiters, booking backends and tools that keep ML experiments reproducible. Most of my work starts with "how would this hold up under real load?" and ends as something I can test and ship.
+
+```go
+type Rameshwari struct {
+    Building  []string
+    Learning  []string
+    OpenTo    []string
+}
+
+var me = Rameshwari{
+    Building: []string{"backend services", "API gateways", "ML tooling"},
+    Learning: []string{"distributed systems", "system design"}, // TODO: edit
+    OpenTo:   []string{"internships", "hackathon teams", "OSS collabs"}, // TODO: edit
+}
+```
+
+---
+
+## `02` Toolbox
+
+**Languages**
+<p>
+  <img src="https://skillicons.dev/icons?i=java,cpp,go,js,python" alt="Java, C++, Go, JavaScript, Python">
+</p>
+
+**Backend & infra**
+<p>
+  <img src="https://skillicons.dev/icons?i=spring,nodejs,express,redis,docker,linux" alt="Spring Boot, Node.js, Express, Redis, Docker, Linux">
+</p>
+
+**Frontend**
+<p>
+  <img src="https://skillicons.dev/icons?i=react,html,css" alt="React, HTML, CSS">
+</p>
+
+**Databases & tools**
+<p>
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,git,firebase" alt="MongoDB, MySQL, PostgreSQL, Git, Firebase">
+</p>
+
+---
+
+## `03` Featured projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### 🔀 GoProxyX
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-**Go · Redis · Docker · REST API**
+An API gateway for microservices. Handles JWT auth, chained middleware, Redis-backed token-bucket rate limiting, dynamic reverse-proxy routing and central logging.
 
-Production-grade API gateway for distributed microservices featuring JWT authentication, middleware chaining, Redis-backed token-bucket rate limiting, dynamic reverse-proxy routing and centralized logging.
-
-<a href="https://github.com/RameshwariS">🔗 View on GitHub</a>
+[Repository →](https://github.com/RameshwariS) <!-- TODO: real repo link -->
 
 </td>
-
 <td width="50%" valign="top">
 
 ### 📦 DSV — Dataset Versioning System
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![CLI](https://img.shields.io/badge/CLI-4D4D4D?style=flat-square&logo=gnubash&logoColor=white)
 
-**Python · CLI · ML Experiment Tracking**
+A light, file-first toolkit for reproducible ML. Tracks datasets, params, preprocessing steps, metrics and artifacts without heavy infra.
 
-Lightweight, file-first toolkit for reproducible ML workflows. Tracks experiment inputs, parameters, datasets, preprocessing steps, metrics and artifacts without heavy infrastructure.
-
-<a href="https://github.com/RameshwariS">🔗 View on GitHub</a>
+[Repository →](https://github.com/RameshwariS) <!-- TODO: real repo link -->
 
 </td>
 </tr>
-
 <tr>
 <td width="50%" valign="top">
 
-### 🎬 Movie Booking Site
+### 🎬 Movie Booking Backend
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 
-**React · Node.js · Express · MongoDB**
+Movies, theatres, showtimes and bookings, with JWT auth, role-based access, MongoDB indexes and fast seat-availability lookups.
 
-Multi-tier movie booking backend supporting movies, theatres, showtimes and bookings, with JWT authentication, role-based access, MongoDB indexing and optimized seat-availability lookups.
-
-<a href="https://github.com/RameshwariS">🔗 View on GitHub</a>
+[Repository →](https://github.com/RameshwariS) <!-- TODO: real repo link -->
 
 </td>
-
 <td width="50%" valign="top">
 
-### 📚 More Projects
+### 📚 More
+Experiments, coursework and open-source contributions live on my profile.
 
-Explore my GitHub profile for additional projects, experiments, open-source contributions and technical work.
-
-<a href="https://github.com/RameshwariS">🔗 Explore Repositories</a>
+[All repositories →](https://github.com/RameshwariS?tab=repositories)
 
 </td>
 </tr>
 </table>
 
+---
 
-## 📊 GitHub Stats
+## `04` GitHub in numbers
 
-<div align="center">
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=RameshwariS&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RameshwariS&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages">
+</p>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=RameshwariS&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RameshwariS&layout=compact&theme=tokyonight&hide_border=true" />
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=RameshwariS&theme=tokyonight&hide_border=true" alt="Contribution streak">
+</p>
 
-<br>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RameshwariS&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Contribution graph">
+</p>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=RameshwariS&theme=tokyonight&hide_border=true" />
-
-</div>
+<!-- TODO: put YOUR LeetCode username here, then uncomment
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/YOUR-HANDLE?theme=dark&font=baloo2&ext=heatmap" alt="LeetCode stats">
+</p>
+-->
 
 ---
 
-<div align="center">
+<p align="center"><i>Building systems, solving problems, and learning in public.</i></p>
 
-<img src="https://leetcard.jacoblin.cool/shrutisatpute1112?theme=dark&font=baloo2&ext=heatmap" />
-
-</div>
-
----
-
-<div align="center">
-
-### 📫 Let's Connect
-
-<a href="mailto:rameshwaris1112@gmail.com">Email</a> ·
-<a href="https://github.com/RameshwariS">GitHub</a>
-
-<br><br>
-
-<i>Building systems, solving problems, and learning in public.</i>
-
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,100:1a1b27&height=120&section=footer" width="100%" alt="">
