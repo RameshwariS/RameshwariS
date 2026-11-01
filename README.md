@@ -124,18 +124,17 @@ Experiments, coursework and open-source contributions live on my profile.
 
 ## `04` GitHub in numbers
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=RameshwariS&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RameshwariS&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages">
-</p>
+<img src="https://raw.githubusercontent.com/RameshwariS/RameshwariS/output/stats.svg" width="100%" alt="GitHub stats for RameshwariS: contribution streak, commits, pull requests, stars, repositories, issues and followers.">
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=RameshwariS&theme=tokyonight&hide_border=true" alt="Contribution streak">
-</p>
+<img src="https://raw.githubusercontent.com/RameshwariS/RameshwariS/output/languages.svg" width="100%" alt="Most used languages across public repositories.">
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RameshwariS&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Contribution graph">
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RameshwariS/RameshwariS/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RameshwariS/RameshwariS/output/snake-light.svg">
+  <img src="https://raw.githubusercontent.com/RameshwariS/RameshwariS/output/snake-dark.svg" width="100%" alt="A snake eating my GitHub contribution graph.">
+</picture>
+
+<sub>Cards are rebuilt daily by a GitHub Actions workflow in this repo, from public data only.</sub>
 
 <!-- TODO: put YOUR LeetCode username here, then uncomment
 <p align="center">
