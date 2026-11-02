@@ -4,11 +4,7 @@
   • Project links currently point to your profile. Swap in the real repo URLs.
 -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:7aa2f7&height=200&section=header&text=Rameshwari&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Backend%20%C2%B7%20Distributed%20Systems%20%C2%B7%20ML%20Tooling&descAlignY=58&descSize=18" width="100%" alt="Rameshwari: backend, distributed systems, ML tooling">
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=800&color=7AA2F7&center=true&vCenter=true&width=600&lines=Building+systems+that+scale;API+gateways+%E2%80%A2+rate+limiters+%E2%80%A2+backends;Reproducible+ML+workflows;Learning+in+public" alt="Typing intro">
-</p>
+<img src="assets/banner.svg" width="100%" alt="Rameshwari: backend, distributed systems, ML tooling">
 
 <p align="center">
   <a href="mailto:rameshwaris1112@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
@@ -142,8 +138,16 @@ Experiments, coursework and open-source contributions live on my profile.
 </p>
 -->
 
+## `05` Badges
+
+<p align="center">
+  <a href="https://cloud.layer5.io/user/472bb70f-3e6f-49e1-a128-203f2be3e7e1?tab=badges&badge=first-design"><img width="175" height="252" src="https://badges.layer5.io/assets/badges/first-design/first-design.png" alt="Layer5 First Design badge"></a>
+  <br>
+  <sup><a href="https://badges.layer5.io">Get your own badge</a></sup>
+</p>
+
 ---
 
 <p align="center"><i>Building systems, solving problems, and learning in public.</i></p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,100:1a1b27&height=120&section=footer" width="100%" alt="">
+<img src="assets/footer.svg" width="100%" alt="Thanks for stopping by">

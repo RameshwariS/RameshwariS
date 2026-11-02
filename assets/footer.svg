@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="64" viewBox="0 0 860 64" role="img" aria-label="Thanks for stopping by">
+  <style>
+    .mono{font-family:'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace}
+    .cur{animation:blink 1s steps(1) infinite}@keyframes blink{50%{opacity:0}}
+    .dot{animation:pulse 2s ease-in-out infinite}@keyframes pulse{50%{opacity:.3}}
+    @media (prefers-reduced-motion:reduce){.cur,.dot{animation:none}}
+  </style>
+  <rect x=".5" y=".5" width="859" height="63" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <g class="mono" font-size="14">
+    <text x="24" y="37"><tspan fill="#9ece6a">$</tspan> <tspan fill="#e6edf3">echo</tspan> <tspan fill="#ff9e64">"thanks for stopping by"</tspan> <tspan fill="#e6edf3" class="cur">█</tspan></text>
+    <circle cx="708" cy="32" r="4" fill="#9ece6a" class="dot"/>
+    <text x="836" y="37" text-anchor="end" fill="#8b949e" font-size="12">exit 0 · online</text>
+  </g>
+</svg>

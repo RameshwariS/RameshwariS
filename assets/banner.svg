@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="250" viewBox="0 0 860 250" role="img" aria-label="Rameshwari: backend, distributed systems, ML tooling">
+  <style>
+    .mono{font-family:'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace}
+    .p{fill:#9ece6a}.c{fill:#e6edf3}.m{fill:#8b949e}.a{fill:#7aa2f7}.v{fill:#bb9af7}.o{fill:#ff9e64}
+    .l{opacity:0;animation:show .01s forwards}
+    .type{clip-path:inset(0 100% 0 0);animation:type .9s steps(24,end) forwards}
+    @keyframes show{to{opacity:1}}
+    @keyframes type{to{clip-path:inset(0 0 0 0)}}
+    .cur{animation:blink 1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .pulse{animation:pulse 2.4s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+    @media (prefers-reduced-motion:reduce){.l{animation:none;opacity:1}.type{animation:none;clip-path:none}.cur,.pulse{animation:none}}
+  </style>
+  <defs>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path d="M22 0H0V22" fill="none" stroke="#7aa2f7" stroke-opacity=".07"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0" stop-color="#0d1117" stop-opacity="1"/>
+      <stop offset=".45" stop-color="#0d1117" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="#7aa2f7"/><stop offset="1" stop-color="#bb9af7"/></linearGradient>
+  </defs>
+
+  <rect width="860" height="250" rx="16" fill="#0d1117"/>
+  <rect width="860" height="250" rx="16" fill="url(#grid)"/>
+  <rect width="860" height="250" rx="16" fill="url(#fade)"/>
+  <rect x=".5" y=".5" width="859" height="249" rx="16" fill="none" stroke="#30363d"/>
+
+  <!-- window chrome -->
+  <circle cx="26" cy="24" r="6" fill="#f7768e"/><circle cx="46" cy="24" r="6" fill="#e0af68"/><circle cx="66" cy="24" r="6" fill="#9ece6a"/>
+  <text x="90" y="28" class="mono m" font-size="12">rameshwari@github: ~</text>
+  <line x1="0" x2="860" y1="44" y2="44" stroke="#30363d"/>
+
+  <!-- terminal -->
+  <g class="mono" font-size="15">
+    <g class="l" style="animation-delay:.2s"><text x="26" y="78"><tspan class="p">$</tspan> <tspan class="c">whoami</tspan></text></g>
+    <g class="l" style="animation-delay:.9s"><text x="26" y="112" class="type" style="animation-delay:.9s"><tspan class="a" font-size="30" font-weight="700">Rameshwari</tspan></text></g>
+    <g class="l" style="animation-delay:1.9s"><text x="26" y="140" class="m" font-size="14">backend · distributed systems · ML tooling</text></g>
+    <g class="l" style="animation-delay:2.6s"><text x="26" y="176"><tspan class="p">$</tspan> <tspan class="c">cat</tspan> <tspan class="v">stack.txt</tspan></text></g>
+    <g class="l" style="animation-delay:3.2s"><text x="26" y="202" font-size="14"><tspan class="o">Go</tspan>  <tspan class="a">Java</tspan>  <tspan class="p">Python</tspan>  <tspan class="v">Redis</tspan>  <tspan class="a">Docker</tspan>  <tspan class="o">Spring</tspan></text></g>
+    <g class="l" style="animation-delay:3.8s"><text x="26" y="230"><tspan class="p">$</tspan> <tspan class="c cur">█</tspan></text></g>
+  </g>
+
+  <!-- gateway diagram: client -> gateway -> services, packets flowing -->
+  <g transform="translate(505,60)" class="mono" font-size="11">
+    <g stroke="#5f7fd6" stroke-width="1.5" fill="none" opacity=".7">
+      <path id="e1" d="M40 80 H120"/>
+      <path id="e2" d="M180 80 C220 80 220 20 260 20"/>
+      <path id="e3" d="M180 80 H260"/>
+      <path id="e4" d="M180 80 C220 80 220 140 260 140"/>
+    </g>
+    <g fill="#7aa2f7">
+      <circle r="3"><animateMotion dur="1.6s" repeatCount="indefinite"><mpath href="#e1"/></animateMotion></circle>
+      <circle r="3" fill="#bb9af7"><animateMotion dur="1.6s" begin=".8s" repeatCount="indefinite"><mpath href="#e2"/></animateMotion></circle>
+      <circle r="3" fill="#2ac3de"><animateMotion dur="1.6s" begin="1.2s" repeatCount="indefinite"><mpath href="#e3"/></animateMotion></circle>
+      <circle r="3" fill="#9ece6a"><animateMotion dur="1.6s" begin=".4s" repeatCount="indefinite"><mpath href="#e4"/></animateMotion></circle>
+    </g>
+    <g>
+      <rect x="0" y="64" width="40" height="32" rx="7" fill="#161b22" stroke="#30363d"/>
+      <text x="20" y="84" text-anchor="middle" class="m">req</text>
+      <rect x="120" y="58" width="60" height="44" rx="9" fill="#161b22" stroke="#7aa2f7"/>
+      <rect x="120" y="58" width="60" height="44" rx="9" fill="none" stroke="#7aa2f7" stroke-width="3" class="pulse" opacity=".4"/>
+      <text x="150" y="78" text-anchor="middle" class="a" font-weight="700">GW</text>
+      <text x="150" y="92" text-anchor="middle" class="m" font-size="9">jwt·rate</text>
+      <rect x="260" y="6" width="60" height="28" rx="7" fill="#161b22" stroke="#30363d"/><text x="290" y="24" text-anchor="middle" class="v">auth</text>
+      <rect x="260" y="66" width="60" height="28" rx="7" fill="#161b22" stroke="#30363d"/><text x="290" y="84" text-anchor="middle" class="a">api</text>
+      <rect x="260" y="126" width="60" height="28" rx="7" fill="#161b22" stroke="#30363d"/><text x="290" y="144" text-anchor="middle" class="p">ml</text>
+    </g>
+  </g>
+</svg>
