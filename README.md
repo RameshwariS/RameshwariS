@@ -31,7 +31,7 @@ type Rameshwari struct {
 }
 
 var me = Rameshwari{
-    Building: []string{"backend services", "API gateways", "ML tooling"},
+    Building: []string{"backend services", "API gateways"},
     Learning: []string{"distributed systems", "system design"}, // TODO: edit
     OpenTo:   []string{"internships", "hackathon teams", "OSS collabs"}, // TODO: edit
 }
@@ -132,11 +132,10 @@ Experiments, coursework and open-source contributions live on my profile.
 
 <sub>Cards are rebuilt daily by a GitHub Actions workflow in this repo, from public data only.</sub>
 
-<!-- TODO: put YOUR LeetCode username here, then uncomment
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/YOUR-HANDLE?theme=dark&font=baloo2&ext=heatmap" alt="LeetCode stats">
+  <img src="https://leetcard.jacoblin.cool/shrutisatpute1112?theme=dark&font=baloo2&ext=heatmap" alt="LeetCode stats">
 </p>
--->
+
 
 ## `05` Badges
 
