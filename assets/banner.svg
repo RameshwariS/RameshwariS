@@ -36,7 +36,7 @@
     <g class="l" style="animation-delay:.9s"><text x="26" y="112" class="type" style="animation-delay:.9s"><tspan class="a" font-size="30" font-weight="700">Rameshwari</tspan></text></g>
     <g class="l" style="animation-delay:1.9s"><text x="26" y="140" class="m" font-size="14">backend · distributed systems</text></g>
     <g class="l" style="animation-delay:2.6s"><text x="26" y="176"><tspan class="p">$</tspan> <tspan class="c">cat</tspan> <tspan class="v">stack.txt</tspan></text></g>
-    <g class="l" style="animation-delay:3.2s"><text x="26" y="202" font-size="14"><tspan class="o">Go</tspan>  <tspan class="a">Java</tspan>  <tspan class="p">Python</tspan>  <tspan class="v">Redis</tspan>  <tspan class="a">Docker</tspan>  <tspan class="o">Spring</tspan></text></g>
+    <!-- <g class="l" style="animation-delay:3.2s"><text x="26" y="202" font-size="14"><tspan class="o">Go</tspan>  <tspan class="a">Java</tspan>  <tspan class="p">Python</tspan>  <tspan class="v">Redis</tspan>  <tspan class="a">Docker</tspan>  <tspan class="o">Spring</tspan></text></g> -->
     <g class="l" style="animation-delay:3.8s"><text x="26" y="230"><tspan class="p">$</tspan> <tspan class="c cur">█</tspan></text></g>
   </g>
 
