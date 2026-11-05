@@ -32,8 +32,8 @@ type Rameshwari struct {
 
 var me = Rameshwari{
     Building: []string{"backend services", "API gateways"},
-    Learning: []string{"distributed systems", "system design"}, // TODO: edit
-    OpenTo:   []string{"internships", "hackathon teams", "OSS collabs"}, // TODO: edit
+    Learning: []string{"distributed systems", "system design"}, 
+    OpenTo:   []string{"internships", "hackathon teams", "OSS collabs"}, 
 }
 ```
 
