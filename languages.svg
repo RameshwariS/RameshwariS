@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="160" viewBox="0 0 860 160" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" role="img" aria-label="Most used languages">
+  <style>
+    .fade{opacity:0;animation:in .5s ease forwards}@keyframes in{to{opacity:1}}
+    .grow{transform-box:fill-box;transform-origin:left;transform:scaleX(0);animation:g .7s ease-out forwards}@keyframes g{to{transform:scaleX(1)}}
+    @media (prefers-reduced-motion:reduce){.fade,.grow{animation:none;opacity:1;transform:none}}
+  </style>
+  <rect width="860" height="160" rx="18" fill="#161b22" stroke="#30363d"/>
+  <text x="40" y="40" fill="#e6edf3" font-size="16" font-weight="700">Most used languages</text>
+  <text x="820" y="40" text-anchor="end" fill="#8b949e" font-size="12">by bytes of code in public repos</text>
+  <rect x="40" y="62" width="780" height="12" rx="3" fill="#0d1117"/>
+  <rect class="grow" style="animation-delay:0.1s" x="40.0" y="62" width="250.2" height="12" rx="3" fill="#f1e05a"/><rect class="grow" style="animation-delay:0.18s" x="293.2" y="62" width="151.5" height="12" rx="3" fill="#3572A5"/><rect class="grow" style="animation-delay:0.26s" x="447.7" y="62" width="106.1" height="12" rx="3" fill="#DA5B0B"/><rect class="grow" style="animation-delay:0.33999999999999997s" x="556.7" y="62" width="66.0" height="12" rx="3" fill="#3178c6"/><rect class="grow" style="animation-delay:0.42000000000000004s" x="625.7" y="62" width="64.1" height="12" rx="3" fill="#e34c26"/><rect class="grow" style="animation-delay:0.5s" x="692.8" y="62" width="40.4" height="12" rx="3" fill="#663399"/><rect class="grow" style="animation-delay:0.58s" x="736.2" y="62" width="80.8" height="12" rx="3" fill="#8b949e"/><g class="fade" style="animation-delay:0.4s"><circle cx="45" cy="98" r="5" fill="#f1e05a"/>
+      <text x="58" y="102" fill="#e6edf3" font-size="13">JavaScript <tspan fill="#8b949e">32.5%</tspan></text></g><g class="fade" style="animation-delay:0.46s"><circle cx="240" cy="98" r="5" fill="#3572A5"/>
+      <text x="253" y="102" fill="#e6edf3" font-size="13">Python <tspan fill="#8b949e">19.8%</tspan></text></g><g class="fade" style="animation-delay:0.52s"><circle cx="435" cy="98" r="5" fill="#DA5B0B"/>
+      <text x="448" y="102" fill="#e6edf3" font-size="13">Jupyter Notebook <tspan fill="#8b949e">14.0%</tspan></text></g><g class="fade" style="animation-delay:0.5800000000000001s"><circle cx="630" cy="98" r="5" fill="#3178c6"/>
+      <text x="643" y="102" fill="#e6edf3" font-size="13">TypeScript <tspan fill="#8b949e">8.8%</tspan></text></g><g class="fade" style="animation-delay:0.64s"><circle cx="45" cy="122" r="5" fill="#e34c26"/>
+      <text x="58" y="126" fill="#e6edf3" font-size="13">HTML <tspan fill="#8b949e">8.6%</tspan></text></g><g class="fade" style="animation-delay:0.7s"><circle cx="240" cy="122" r="5" fill="#663399"/>
+      <text x="253" y="126" fill="#e6edf3" font-size="13">CSS <tspan fill="#8b949e">5.6%</tspan></text></g><g class="fade" style="animation-delay:0.76s"><circle cx="435" cy="122" r="5" fill="#8b949e"/>
+      <text x="448" y="126" fill="#e6edf3" font-size="13">Other <tspan fill="#8b949e">10.7%</tspan></text></g>
+</svg>
