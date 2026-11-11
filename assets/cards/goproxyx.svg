@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="240" viewBox="0 0 420 240" role="img" aria-label="GoProxyX: requests pass through a gateway with a token-bucket rate limiter. Four pass, two are rejected with 429.">
+  <style>
+    text{font-family:'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace}
+    .t{fill:#e6edf3}.m{fill:#8b949e}
+    .rq{animation:8s linear infinite}
+    @keyframes pass{0%{transform:translateX(0);opacity:0;fill:#7aa2f7}1.5%{opacity:1}11%{fill:#7aa2f7}11.1%{fill:#9ece6a}24%{transform:translateX(270px);opacity:1}25%{transform:translateX(274px);opacity:0;fill:#9ece6a}100%{transform:translateX(274px);opacity:0;fill:#9ece6a}}
+    @keyframes drop{0%{transform:translate(0,0);opacity:0;fill:#7aa2f7}1.5%{opacity:1}11%{transform:translate(154px,0);fill:#f7768e}17%{transform:translate(154px,50px);opacity:1}20%{transform:translate(154px,62px);opacity:0}100%{transform:translate(154px,62px);opacity:0;fill:#f7768e}}
+    .pip{animation:8s linear infinite}
+    @keyframes flash{0%{opacity:.35}48%{opacity:.35}50%{opacity:1}56%{opacity:.35}57.5%{opacity:.35}59.5%{opacity:1}66%{opacity:.35}100%{opacity:.35}}
+    .f{animation:flash 8s linear infinite}
+    .pulse{animation:pulse 2.4s ease-in-out infinite}
+    @keyframes pulse{0%{opacity:.15}50%{opacity:.6}100%{opacity:.15}}
+    @keyframes pip0{0%{opacity:1}11%{opacity:1}11.5%{opacity:0}93.75%{opacity:0}95.75%{opacity:1}100%{opacity:1}}
+    @keyframes pip1{0%{opacity:1}19.75%{opacity:1}20.25%{opacity:0}87.5%{opacity:0}89.5%{opacity:1}100%{opacity:1}}
+    @keyframes pip2{0%{opacity:1}28.5%{opacity:1}29%{opacity:0}81.25%{opacity:0}83.25%{opacity:1}100%{opacity:1}}
+    @keyframes pip3{0%{opacity:1}37.25%{opacity:1}37.75%{opacity:0}75%{opacity:0}77%{opacity:1}100%{opacity:1}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <defs>
+    <pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#7aa2f7" stroke-opacity=".05"/></pattern>
+  </defs>
+  <rect x=".5" y=".5" width="419" height="239" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <rect x="1" y="45" width="418" height="194" fill="url(#g)"/>
+  <rect x="20" y="17" width="12" height="12" rx="3.5" fill="#7aa2f7"/>
+  <text x="42" y="28" class="t" font-size="14" font-weight="700">GoProxyX</text>
+  <text x="400" y="28" class="m" font-size="11" text-anchor="end">api gateway</text>
+  <line x1="1" x2="419" y1="44.5" y2="44.5" stroke="#30363d"/>
+  <g font-size="11">
+    <path d="M66 140H186M254 140H338" stroke="#30363d" stroke-width="1.5" stroke-dasharray="3 5"/>
+    <path d="M220 164V200" stroke="#30363d" stroke-width="1.5" stroke-dasharray="3 5"/>
+    <circle class="rq" cx="66" cy="140" r="4" fill="#7aa2f7" style="animation-name:pass;animation-delay:0s"/>
+    <circle class="rq" cx="66" cy="140" r="4" fill="#7aa2f7" style="animation-name:pass;animation-delay:0.7s"/>
+    <circle class="rq" cx="66" cy="140" r="4" fill="#7aa2f7" style="animation-name:pass;animation-delay:1.4s"/>
+    <circle class="rq" cx="66" cy="140" r="4" fill="#7aa2f7" style="animation-name:pass;animation-delay:2.1s"/>
+    <circle class="rq" cx="66" cy="140" r="4" fill="#7aa2f7" style="animation-name:drop;animation-delay:2.8s"/>
+    <circle class="rq" cx="66" cy="140" r="4" fill="#7aa2f7" style="animation-name:drop;animation-delay:3.5s"/>
+    <rect x="20" y="124" width="44" height="32" rx="7" fill="#161b22" stroke="#30363d"/>
+    <text x="42" y="144" text-anchor="middle" class="m">req</text>
+    <path d="M198 58V106H242V58" fill="#161b22" stroke="#30363d" stroke-width="1.5" stroke-linejoin="round"/>
+    <rect class="pip" style="animation-name:pip0" x="203" y="64" width="34" height="7" rx="2" fill="#e0af68"/>
+    <rect class="pip" style="animation-name:pip1" x="203" y="74" width="34" height="7" rx="2" fill="#e0af68"/>
+    <rect class="pip" style="animation-name:pip2" x="203" y="84" width="34" height="7" rx="2" fill="#e0af68"/>
+    <rect class="pip" style="animation-name:pip3" x="203" y="94" width="34" height="7" rx="2" fill="#e0af68"/>
+    <text x="190" y="86" text-anchor="end" class="m" font-size="10">tokens</text>
+    <path d="M220 106V118" stroke="#30363d" stroke-width="1.5"/>
+    <rect x="186" y="118" width="68" height="44" rx="9" fill="#161b22" stroke="#7aa2f7"/>
+    <rect x="186" y="118" width="68" height="44" rx="9" fill="none" stroke="#7aa2f7" stroke-width="3" class="pulse"/>
+    <text x="220" y="138" text-anchor="middle" fill="#7aa2f7" font-weight="700">gateway</text>
+    <text x="220" y="152" text-anchor="middle" class="m" font-size="9">jwt · limit</text>
+    <rect x="340" y="124" width="60" height="32" rx="7" fill="#161b22" stroke="#30363d"/>
+    <text x="370" y="144" text-anchor="middle" class="m">service</text>
+    <text x="370" y="114" text-anchor="middle" fill="#9ece6a" font-weight="700">200</text>
+    <text x="234" y="200" fill="#f7768e" font-weight="700" class="f">429</text>
+    <text x="20" y="222" class="m" font-size="10">token bucket · burst of 6, room for 4</text>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="12" viewBox="0 0 860 12" role="presentation">
+  <style>@media (prefers-reduced-motion:reduce){.pk{display:none}}</style>
+  <defs>
+    <linearGradient id="w" x1="0" x2="1"><stop offset="0" stop-color="#7aa2f7" stop-opacity="0"/><stop offset=".5" stop-color="#7aa2f7" stop-opacity=".55"/><stop offset="1" stop-color="#bb9af7" stop-opacity="0"/></linearGradient>
+    <linearGradient id="p" x1="0" x2="1"><stop offset="0" stop-color="#2ac3de" stop-opacity="0"/><stop offset="1" stop-color="#2ac3de"/></linearGradient>
+  </defs>
+  <rect x="0" y="5.5" width="860" height="1" fill="url(#w)"/>
+  <g class="pk">
+    <rect y="4.5" width="46" height="3" rx="1.5" fill="url(#p)"><animate attributeName="x" from="-60" to="880" dur="5s" repeatCount="indefinite"/></rect>
+    <rect y="4.5" width="30" height="3" rx="1.5" fill="url(#p)" opacity=".6"><animate attributeName="x" from="-60" to="880" dur="5s" begin="2.2s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>

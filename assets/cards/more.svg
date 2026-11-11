@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="240" viewBox="0 0 420 240" role="img" aria-label="More: experiments, coursework and open-source contributions.">
+  <style>
+    text{font-family:'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace}
+    .t{fill:#e6edf3}.m{fill:#8b949e}
+    .l{opacity:0;animation:show .01s forwards}
+    @keyframes show{100%{opacity:1}}
+    .cur{animation:blink 1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    @media (prefers-reduced-motion:reduce){.l{opacity:1}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <defs>
+    <pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#9ece6a" stroke-opacity=".05"/></pattern>
+  </defs>
+  <rect x=".5" y=".5" width="419" height="239" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <rect x="1" y="45" width="418" height="194" fill="url(#g)"/>
+  <rect x="20" y="17" width="12" height="12" rx="3.5" fill="#9ece6a"/>
+  <text x="42" y="28" class="t" font-size="14" font-weight="700">More</text>
+  <text x="400" y="28" class="m" font-size="11" text-anchor="end">all repositories</text>
+  <line x1="1" x2="419" y1="44.5" y2="44.5" stroke="#30363d"/>
+  <g font-size="13">
+    <text x="24" y="84" class="l" style="animation-delay:.3s"><tspan fill="#9ece6a">$</tspan> <tspan class="t">ls</tspan> <tspan fill="#bb9af7">~/more</tspan></text>
+    <g class="l" style="animation-delay:0.9s"><path d="M24 101h7l3 3h10v11h-20z" fill="#2ac3de" opacity=".85"/><text x="54" y="114" fill="#2ac3de">experiments/</text></g>
+    <g class="l" style="animation-delay:1.3s"><path d="M24 129h7l3 3h10v11h-20z" fill="#bb9af7" opacity=".85"/><text x="54" y="142" fill="#bb9af7">coursework/</text></g>
+    <g class="l" style="animation-delay:1.7s"><path d="M24 157h7l3 3h10v11h-20z" fill="#9ece6a" opacity=".85"/><text x="54" y="170" fill="#9ece6a">open-source/</text></g>
+    <text x="24" y="206" class="l" style="animation-delay:2.3s"><tspan fill="#9ece6a">$</tspan> <tspan class="t cur">█</tspan></text>
+  </g>
+</svg>

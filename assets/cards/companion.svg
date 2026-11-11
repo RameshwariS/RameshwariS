@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="240" viewBox="0 0 420 240" role="img" aria-label="OpenSourceCompanion: an issue card moves across a board from find, to work, to PR, to merged.">
+  <style>
+    text{font-family:'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace}
+    .t{fill:#e6edf3}.m{fill:#8b949e}
+    .a{animation:9s linear infinite}
+    @keyframes card{0%{opacity:0}4.44%{opacity:0}7.78%{opacity:1}92.22%{opacity:1}95.56%{opacity:0}100%{opacity:0}}
+    @keyframes go{0%{transform:translateX(0px)}17.78%{transform:translateX(0px)}23.33%{transform:translateX(96px)}36.67%{transform:translateX(96px)}42.22%{transform:translateX(192px)}55.56%{transform:translateX(192px)}61.11%{transform:translateX(288px)}100%{transform:translateX(288px)}}
+    @keyframes edge{0%{stroke:#7aa2f7}61.11%{stroke:#7aa2f7}63.33%{stroke:#9ece6a}100%{stroke:#9ece6a}}
+    @keyframes done{0%{opacity:0}62.22%{opacity:0}64.44%{opacity:1}92.22%{opacity:1}94.44%{opacity:0}100%{opacity:0}}
+    @keyframes col0{0%{opacity:0}4.44%{opacity:0}6.67%{opacity:1}17.78%{opacity:1}21.11%{opacity:0}100%{opacity:0}}
+    @keyframes col1{0%{opacity:0}23.33%{opacity:0}25.56%{opacity:1}36.67%{opacity:1}40%{opacity:0}100%{opacity:0}}
+    @keyframes col2{0%{opacity:0}42.22%{opacity:0}44.44%{opacity:1}55.56%{opacity:1}58.89%{opacity:0}100%{opacity:0}}
+    @keyframes col3{0%{opacity:0}61.11%{opacity:0}63.33%{opacity:1}92.22%{opacity:1}95.56%{opacity:0}100%{opacity:0}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <defs>
+    <pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#ff9e64" stroke-opacity=".05"/></pattern>
+  </defs>
+  <rect x=".5" y=".5" width="419" height="239" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <rect x="1" y="45" width="418" height="194" fill="url(#g)"/>
+  <rect x="20" y="17" width="12" height="12" rx="3.5" fill="#ff9e64"/>
+  <text x="42" y="28" class="t" font-size="14" font-weight="700">OpenSourceCompanion</text>
+  <text x="400" y="28" class="m" font-size="11" text-anchor="end">first contributions</text>
+  <line x1="1" x2="419" y1="44.5" y2="44.5" stroke="#30363d"/>
+  <g>
+    <rect x="22" y="56" width="88" height="140" rx="9" fill="#0d1117" stroke="#30363d"/>
+    <rect class="a" style="animation-name:col0" x="22" y="56" width="88" height="140" rx="9" fill="none" stroke="#7aa2f7" stroke-opacity=".7"/>
+    <text x="66" y="74" text-anchor="middle" class="m" font-size="10">find</text>
+    <rect x="118" y="56" width="88" height="140" rx="9" fill="#0d1117" stroke="#30363d"/>
+    <rect class="a" style="animation-name:col1" x="118" y="56" width="88" height="140" rx="9" fill="none" stroke="#7aa2f7" stroke-opacity=".7"/>
+    <text x="162" y="74" text-anchor="middle" class="m" font-size="10">work</text>
+    <rect x="214" y="56" width="88" height="140" rx="9" fill="#0d1117" stroke="#30363d"/>
+    <rect class="a" style="animation-name:col2" x="214" y="56" width="88" height="140" rx="9" fill="none" stroke="#7aa2f7" stroke-opacity=".7"/>
+    <text x="258" y="74" text-anchor="middle" class="m" font-size="10">PR</text>
+    <rect x="310" y="56" width="88" height="140" rx="9" fill="#0d1117" stroke="#30363d"/>
+    <rect class="a" style="animation-name:col3" x="310" y="56" width="88" height="140" rx="9" fill="none" stroke="#9ece6a" stroke-opacity=".7"/>
+    <text x="354" y="74" text-anchor="middle" class="m" font-size="10">merged</text>
+    <rect x="28" y="122" width="76" height="28" rx="6" fill="#161b22" stroke="#30363d"/><circle cx="38" cy="132" r="3" fill="#9ece6a" opacity=".7"/><rect x="46" y="130" width="36" height="4" rx="2" fill="#30363d"/><rect x="35" y="140" width="30" height="4" rx="2" fill="#30363d"/>
+    <rect x="28" y="158" width="76" height="28" rx="6" fill="#161b22" stroke="#30363d"/><circle cx="38" cy="168" r="3" fill="#e0af68" opacity=".7"/><rect x="46" y="166" width="30" height="4" rx="2" fill="#30363d"/><rect x="35" y="176" width="30" height="4" rx="2" fill="#30363d"/>
+    <rect x="124" y="122" width="76" height="28" rx="6" fill="#161b22" stroke="#30363d"/><circle cx="134" cy="132" r="3" fill="#e0af68" opacity=".7"/><rect x="142" y="130" width="36" height="4" rx="2" fill="#30363d"/><rect x="131" y="140" width="35" height="4" rx="2" fill="#30363d"/>
+    <rect x="316" y="122" width="76" height="28" rx="6" fill="#161b22" stroke="#30363d"/><circle cx="326" cy="132" r="3" fill="#9ece6a" opacity=".7"/><rect x="334" y="130" width="36" height="4" rx="2" fill="#30363d"/><rect x="323" y="140" width="45" height="4" rx="2" fill="#30363d"/>
+    <g class="a" style="animation-name:card"><g class="a" style="animation-name:go;animation-timing-function:ease-in-out">
+      <rect class="a" style="animation-name:edge" x="28" y="86" width="76" height="28" rx="6" fill="#161b22" stroke="#9ece6a" stroke-width="1.5"/>
+      <circle cx="38" cy="96" r="3" fill="#9ece6a"/>
+      <rect x="46" y="94" width="40" height="4" rx="2" fill="#e6edf3" opacity=".8"/>
+      <rect x="35" y="104" width="34" height="4" rx="2" fill="#8b949e" opacity=".7"/>
+      <g class="a" style="animation-name:done">
+        <circle cx="94" cy="105" r="6" fill="#9ece6a"/>
+        <path d="M91 105l2.2 2.2l3.8-4.2" fill="none" stroke="#0d1117" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g></g>
+    <text x="20" y="222" class="m" font-size="10">first issue to merged PR · GitHub-verified</text>
+  </g>
+</svg>
