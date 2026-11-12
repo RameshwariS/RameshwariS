@@ -11,9 +11,7 @@
 <p align="center">
   <a href="mailto:rameshwaris1112@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://github.com/RameshwariS"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-  <!-- TODO: add your LinkedIn, then uncomment
-  <a href="https://www.linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  -->
+  <a href="https://www.linkedin.com/in/rameshwari-satpute-8068322a6/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <!-- TODO: add your LeetCode handle, then uncomment
   <a href="https://leetcode.com/u/YOUR-HANDLE"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"></a>
   -->
@@ -33,9 +31,9 @@ type Rameshwari struct {
 }
 
 var me = Rameshwari{
-    Building: []string{"backend services", "API gateways", "ML tooling"},
-    Learning: []string{"distributed systems", "system design"}, // TODO: edit
-    OpenTo:   []string{"internships", "hackathon teams", "OSS collabs"}, // TODO: edit
+    Building: []string{"backend services", "API gateways"},
+    Learning: []string{"distributed systems", "system design"}, 
+    OpenTo:   []string{"internships", "hackathon teams", "OSS collabs"}, 
 }
 ```
 
@@ -143,11 +141,10 @@ Experiments, coursework and open-source contributions live on my profile.
 
 <sub>Cards are rebuilt daily by a GitHub Actions workflow in this repo, from public data only.</sub>
 
-<!-- TODO: put YOUR LeetCode username here, then uncomment
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/YOUR-HANDLE?theme=dark&font=baloo2&ext=heatmap" alt="LeetCode stats">
+  <img src="https://leetcard.jacoblin.cool/shrutisatpute1112?theme=dark&font=baloo2&ext=heatmap" alt="LeetCode stats">
 </p>
--->
+
 
 <img src="assets/divider.svg" width="100%" height="12" alt="">
 
