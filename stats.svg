@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="300" viewBox="0 0 860 300" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" role="img" aria-label="GitHub stats for RameshwariS">
+  <style>
+    .fade{opacity:0;animation:up .6s ease forwards}
+    @keyframes up{from{opacity:0;transform:translateY(8px)}to{opacity:1}}
+    .ring{stroke-dasharray:389.55748904513433;stroke-dashoffset:389.55748904513433;animation:draw 1.4s .3s ease-out forwards}
+    @keyframes draw{to{stroke-dashoffset:0}}
+    @media (prefers-reduced-motion:reduce){.fade{animation:none;opacity:1}.ring{animation:none;stroke-dashoffset:0}}
+  </style>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7aa2f7"/><stop offset="1" stop-color="#bb9af7"/></linearGradient>
+    <radialGradient id="glow" cx=".2" cy=".2" r=".9"><stop offset="0" stop-color="#7aa2f7" stop-opacity=".16"/><stop offset="1" stop-color="#7aa2f7" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="860" height="300" rx="18" fill="#161b22" stroke="#30363d"/>
+  <rect width="860" height="300" rx="18" fill="url(#glow)"/>
+
+  <g class="fade" transform="translate(40,34)">
+    <rect width="262" height="198" rx="14" fill="#0d1117" stroke="#30363d"/>
+    <g transform="translate(131,96)">
+      <circle r="62" fill="none" stroke="#30363d" stroke-width="10"/>
+      <circle class="ring" r="62" fill="none" stroke="url(#g)" stroke-width="10" stroke-linecap="round" transform="rotate(-90)"/>
+      <text y="6" text-anchor="middle" fill="#e6edf3" font-size="40" font-weight="800">20</text>
+      <text y="28" text-anchor="middle" fill="#8b949e" font-size="12">day streak</text>
+    </g>
+    <text x="131" y="186" text-anchor="middle" fill="#8b949e" font-size="12">since Oct 26</text>
+  </g>
+
+  <g class="fade" style="animation-delay:0.15s" transform="translate(330,34)">
+      <rect width="152" height="92" rx="12" fill="#0d1117" stroke="#30363d"/>
+      <rect width="3" height="60" x="0" y="16" rx="1.5" fill="#7aa2f7"/>
+      <g transform="translate(18,18)" fill="none" stroke="#7aa2f7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><g transform="scale(0.75)"><circle cx="12" cy="12" r="4"/><path d="M2 12h6M16 12h6"/></g></g>
+      <text x="18" y="66" fill="#e6edf3" font-size="28" font-weight="700">246</text>
+      <text x="44" y="31" fill="#8b949e" font-size="12.5">Commits (12 mo)</text>
+    </g><g class="fade" style="animation-delay:0.22999999999999998s" transform="translate(496,34)">
+      <rect width="152" height="92" rx="12" fill="#0d1117" stroke="#30363d"/>
+      <rect width="3" height="60" x="0" y="16" rx="1.5" fill="#bb9af7"/>
+      <g transform="translate(18,18)" fill="none" stroke="#bb9af7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><g transform="scale(0.75)"><circle cx="6" cy="5" r="2.5"/><circle cx="6" cy="19" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="M6 7.5v9M18 16.5V10a3 3 0 0 0-3-3h-4M13 4.5 10.5 7 13 9.5"/></g></g>
+      <text x="18" y="66" fill="#e6edf3" font-size="28" font-weight="700">17</text>
+      <text x="44" y="31" fill="#8b949e" font-size="12.5">Pull requests</text>
+    </g><g class="fade" style="animation-delay:0.31s" transform="translate(662,34)">
+      <rect width="152" height="92" rx="12" fill="#0d1117" stroke="#30363d"/>
+      <rect width="3" height="60" x="0" y="16" rx="1.5" fill="#ff9e64"/>
+      <g transform="translate(18,18)" fill="none" stroke="#ff9e64" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><g transform="scale(0.75)"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3 6.4 20.2l1.1-6.2L3 9.6l6.2-.9z"/></g></g>
+      <text x="18" y="66" fill="#e6edf3" font-size="28" font-weight="700">4</text>
+      <text x="44" y="31" fill="#8b949e" font-size="12.5">Stars earned</text>
+    </g><g class="fade" style="animation-delay:0.39s" transform="translate(330,140)">
+      <rect width="152" height="92" rx="12" fill="#0d1117" stroke="#30363d"/>
+      <rect width="3" height="60" x="0" y="16" rx="1.5" fill="#2ac3de"/>
+      <g transform="translate(18,18)" fill="none" stroke="#2ac3de" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><g transform="scale(0.75)"><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5v-15ZM5 19.5A1.5 1.5 0 0 0 6.5 21H19v-3"/></g></g>
+      <text x="18" y="66" fill="#e6edf3" font-size="28" font-weight="700">31</text>
+      <text x="44" y="31" fill="#8b949e" font-size="12.5">Public repos</text>
+    </g><g class="fade" style="animation-delay:0.47s" transform="translate(496,140)">
+      <rect width="152" height="92" rx="12" fill="#0d1117" stroke="#30363d"/>
+      <rect width="3" height="60" x="0" y="16" rx="1.5" fill="#9ece6a"/>
+      <g transform="translate(18,18)" fill="none" stroke="#9ece6a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><g transform="scale(0.75)"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="1.5"/></g></g>
+      <text x="18" y="66" fill="#e6edf3" font-size="28" font-weight="700">11</text>
+      <text x="44" y="31" fill="#8b949e" font-size="12.5">Issues opened</text>
+    </g><g class="fade" style="animation-delay:0.55s" transform="translate(662,140)">
+      <rect width="152" height="92" rx="12" fill="#0d1117" stroke="#30363d"/>
+      <rect width="3" height="60" x="0" y="16" rx="1.5" fill="#f7768e"/>
+      <g transform="translate(18,18)" fill="none" stroke="#f7768e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><g transform="scale(0.75)"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0M16 4.5a3.5 3.5 0 0 1 0 7M18 14a6.5 6.5 0 0 1 3.5 6"/></g></g>
+      <text x="18" y="66" fill="#e6edf3" font-size="28" font-weight="700">14</text>
+      <text x="44" y="31" fill="#8b949e" font-size="12.5">Followers</text>
+    </g>
+
+  <g class="fade" style="animation-delay:.7s" font-size="13">
+    <line x1="40" x2="820" y1="252" y2="252" stroke="#30363d"/>
+    <text x="40" y="278" fill="#8b949e"><tspan fill="#e6edf3" font-weight="700">445</tspan> contributions since Jan 2023</text>
+    <text x="820" y="278" text-anchor="end" fill="#8b949e">Longest streak <tspan fill="#e6edf3" font-weight="700">20 days</tspan> · Oct 26 – Nov 14</text>
+  </g>
+</svg>
