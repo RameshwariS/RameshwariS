@@ -1,0 +1,22 @@
+{
+  "notes": {
+    "https://github.com/meshery/meshery/pull/23822": "Run load tests against every configured endpoint URL, not just the first one.",
+    "https://github.com/meshery/meshery/pull/22967": "Propagate database and marshal errors from `GetMesheryK8sContexts` instead of silently dropping them.",
+    "https://github.com/meshery/meshery/pull/22737": "Remove the unused `SetOverrideValues` from the GraphQL model.",
+    "https://github.com/meshery-extensions/mesheryctl-axi/pull/90": "Require HTTPS for non-loopback endpoints before sending auth cookies.",
+    "https://github.com/meshery-extensions/mesheryctl-axi/pull/87": "Add `design evaluate`, `deploy` and `undeploy` commands.",
+    "https://github.com/meshery-extensions/mesheryctl-axi/pull/85": "Add a `design import` command for design files.",
+    "https://github.com/meshery-extensions/shape-builder/pull/234": "Disable Gatsby's built-in ESLint plugin so `gatsby develop` works with ESLint 10.",
+    "https://github.com/meshery-extensions/shape-builder/pull/228": "Fix the `svg.draw.js` import warning and migrate ESLint to flat config.",
+    "https://github.com/meshery-extensions/shape-builder/pull/222": "Bump Go to 1.27.1.",
+    "https://github.com/meshery/qa/pull/95": "Bump Go to 1.27.1.",
+    "https://github.com/layer5io/layer5/pull/8216": "Preserve logo colors and keep them visible in dark mode.",
+    "https://github.com/meshery/meshery.io/pull/3102": "Fix the homepage CTA alignment, hero title size and mobile text alignment.",
+    "https://github.com/meshery/meshsync/pull/627": "Add a `Discoverer` interface, with Kubernetes as the first adapter.",
+    "https://github.com/meshery/schemas/pull/1375": "Migrate model/component nested refs to camelCase wire format (v1beta2/v1beta3)."
+  },
+  "exclude": [
+    "https://github.com/meshery/meshery/pull/22016",
+    "https://github.com/Pooja411/CareerCraft/pull/2"
+  ]
+}

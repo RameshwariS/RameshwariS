@@ -63,7 +63,50 @@ var me = Rameshwari{
 
 <img src="assets/divider.svg" width="100%" height="12" alt="">
 
-## `03` Featured projects
+## `03` Open-source contributions
+
+I contribute to **[Meshery](https://github.com/meshery)** and **[Layer5](https://github.com/layer5io)**, the CNCF project for designing and managing cloud-native infrastructure. Most of my work is in the Go server, the `mesheryctl-axi` CLI and the extension tooling.
+
+<!-- OSS:START -->
+<p>
+  <img src="https://img.shields.io/badge/Merged%20PRs-12-2ea44f?style=flat-square&logo=github&logoColor=white" alt="12 merged PRs">
+  <img src="https://img.shields.io/badge/Orgs-meshery--extensions%20%C2%B7%20meshery%20%C2%B7%20layer5io-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Organizations: meshery-extensions, meshery, layer5io">
+</p>
+
+**meshery-extensions/mesheryctl-axi**
+- [#90](https://github.com/meshery-extensions/mesheryctl-axi/pull/90) Require HTTPS for non-loopback endpoints before sending auth cookies.
+- [#87](https://github.com/meshery-extensions/mesheryctl-axi/pull/87) Add `design evaluate`, `deploy` and `undeploy` commands.
+- [#85](https://github.com/meshery-extensions/mesheryctl-axi/pull/85) Add a `design import` command for design files.
+
+**meshery/meshery**
+- [#23822](https://github.com/meshery/meshery/pull/23822) Run load tests against every configured endpoint URL, not just the first one.
+- [#22967](https://github.com/meshery/meshery/pull/22967) Propagate database and marshal errors from `GetMesheryK8sContexts` instead of silently dropping them.
+- [#22737](https://github.com/meshery/meshery/pull/22737) Remove the unused `SetOverrideValues` from the GraphQL model.
+
+**layer5io/layer5**
+- [#8216](https://github.com/layer5io/layer5/pull/8216) Preserve logo colors and keep them visible in dark mode.
+
+**meshery-extensions/shape-builder**
+- [#234](https://github.com/meshery-extensions/shape-builder/pull/234) Disable Gatsby's built-in ESLint plugin so `gatsby develop` works with ESLint 10.
+- [#228](https://github.com/meshery-extensions/shape-builder/pull/228) Fix the `svg.draw.js` import warning and migrate ESLint to flat config.
+- [#222](https://github.com/meshery-extensions/shape-builder/pull/222) Bump Go to 1.27.1.
+
+**meshery/qa**
+- [#95](https://github.com/meshery/qa/pull/95) Bump Go to 1.27.1.
+
+**meshery/meshery.io**
+- [#3102](https://github.com/meshery/meshery.io/pull/3102) Fix the homepage CTA alignment, hero title size and mobile text alignment.
+
+**In review**
+- [meshery/meshsync#627](https://github.com/meshery/meshsync/pull/627) Add a `Discoverer` interface, with Kubernetes as the first adapter.
+- [meshery/schemas#1375](https://github.com/meshery/schemas/pull/1375) Migrate model/component nested refs to camelCase wire format (v1beta2/v1beta3).
+
+<sub>Updated automatically every day from GitHub.</sub>
+<!-- OSS:END -->
+
+<img src="assets/divider.svg" width="100%" height="12" alt="">
+
+## `04` Featured projects
 
 <table>
 <tr>
@@ -127,7 +170,7 @@ Experiments, coursework and open-source contributions live on my profile.
 
 <img src="assets/divider.svg" width="100%" height="12" alt="">
 
-## `04` GitHub in numbers
+## `05` GitHub in numbers
 
 <img src="https://raw.githubusercontent.com/RameshwariS/RameshwariS/output/stats.svg" width="100%" alt="GitHub stats for RameshwariS: contribution streak, commits, pull requests, stars, repositories, issues and followers.">
 
@@ -148,7 +191,7 @@ Experiments, coursework and open-source contributions live on my profile.
 
 <img src="assets/divider.svg" width="100%" height="12" alt="">
 
-## `05` Badges
+## `06` Badges
 
 <p align="center">
   <a href="https://cloud.layer5.io/user/472bb70f-3e6f-49e1-a128-203f2be3e7e1?tab=badges&badge=first-design"><img width="175" height="252" src="https://badges.layer5.io/assets/badges/first-design/first-design.png" alt="Layer5 First Design badge"></a>
