@@ -98,6 +98,7 @@ I contribute to **[Meshery](https://github.com/meshery)** and **[Layer5](https:/
 - [#3102](https://github.com/meshery/meshery.io/pull/3102) Fix the homepage CTA alignment, hero title size and mobile text alignment.
 
 **In review**
+- [meshery/schemas#1407](https://github.com/meshery/schemas/pull/1407) feat(discovered_resource): add platform-agnostic DiscoveredResource construct (v1beta3)
 - [meshery/meshsync#627](https://github.com/meshery/meshsync/pull/627) Add a `Discoverer` interface, with Kubernetes as the first adapter.
 - [meshery/schemas#1375](https://github.com/meshery/schemas/pull/1375) Migrate model/component nested refs to camelCase wire format (v1beta2/v1beta3).
 
